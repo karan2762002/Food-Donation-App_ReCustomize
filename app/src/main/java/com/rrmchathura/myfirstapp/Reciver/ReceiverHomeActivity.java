@@ -127,7 +127,7 @@ public class ReceiverHomeActivity extends AppCompatActivity {
 
 
                 } else {
-                    Toast.makeText(getApplicationContext(), "Write Some text", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Write Your Address", Toast.LENGTH_SHORT).show();
                 }
             }
         });
