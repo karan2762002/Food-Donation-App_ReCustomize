@@ -31,16 +31,6 @@
                 android:text="ShareMeal"
                 android:textSize="18sp" />
 
-            <TextView
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/baloo"
-                android:text="freesourcecodelk"
-                android:textColor="@color/blacks"
-                android:textSize="14sp"
-
-                />
 
 
         </LinearLayout>
