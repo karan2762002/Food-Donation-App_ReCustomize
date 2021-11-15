@@ -147,6 +147,19 @@
                  />
 
             <TextView
+                android:id="@+id/RiderRegister"
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Rider Register"
+                android:onClick="riderresiter"
+                android:textColor="#F78D46"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
                 android:id="@+id/reciver"
                 android:layout_width="match_parent"
                 android:layout_height="22dp"

@@ -37,6 +37,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.rrmchathura.myfirstapp.Reciver.ReceiverHomeActivity;
 import com.rrmchathura.myfirstapp.Reciver.SignupActivity;
 import com.rrmchathura.myfirstapp.rider.RiderHomeActivity;
+import com.rrmchathura.myfirstapp.rider.RiderRegisterActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -350,6 +351,11 @@ public class LoginActivity extends AppCompatActivity {
 
     public void loginBtnlink(View view) {
         startActivity(new Intent(LoginActivity.this, LoginActivity.class));
+        finish();
+    }
+
+    public void riderresiter(View view) {
+        startActivity(new Intent(LoginActivity.this, RiderRegisterActivity.class));
         finish();
     }
 }
